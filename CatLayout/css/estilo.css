@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@author "Danielle e Renata";
+
+/*tudo:*/
+*{
+  font-family: verdana;
+  margin:0;
+  text-align: center;
+}
+
+/*background:*/
+body{
+  /*background-image: url(../img/bg5.png);
+  background-attachment: fixed;*/
+  background-color: #FDF1E5;
+}
+
+/*div geral:*/
+.geral{
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*header:*/
+.topo{
+  width: 100%;
+  height: 270px;
+  background-image: url(../img/header1.png);
+  background-size: 100% 100%;
+  border-radius: 59px 59px 59px 59px;
+  border: 7px dotted #BEE4F4;
+}
+
+/*container para o menu nav:*/
+.menu{
+  width: 70%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+/*formatando o container section conteúdo:*/
+.conteudo{
+  width: 100%;
+  height: auto;
+  color:black;
+  /*background-color: rgba(255, 255, 255, 0.5);*/
+}
+
+/*rodapé footer:*/
+.rodape{
+  width: 960px;
+  height: 40px;
+  background-color: #A8D3FF;
+  color:#fff;
+  border-radius: 0 0 20px 20px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+/*colunas div:*/
+.colunas{
+  -moz-column-count:2;
+  -moz-column-gap:10px;
+  -moz-column-rule:#BEE4F4 dotted 5px;
+  -webkit-column-count:2;
+  -webkit-column-gap:10px;
+  -webkit-column-rule:#BEE4F4 dotted 5px;
+  border-top: 5px dotted #BEE4F4;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*parágrafos das colunas:*/
+.colunas p{
+  text-align: justify;
+  text-indent: 20px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+/*titulo:*/
+.conteudo h1{
+  font-family: Arial black;
+  font-size: 50px;
+  padding: 20px;
+  color: #EAD29D;
+  text-shadow: 1px 4px 2px #725124;
+}
+
+.figuracolunas img{
+  width: 55%;
+  border-radius: 59px;
+  border: 7px dotted #BEE4F4;
+  padding: 2px;
+  margin: 4px;
+}
+
+/*menu:*/
+/*Definindo cores e largura:*/
+.menu{
+  width: auto;
+  background-color:#BEE4F4;
+  border-radius: 59px;
+}
+
+/*retirar os marcadores:*/
+.menu ul{
+  list-style-type: none;
+  padding: 0;
+  line-height: 1;
+}
+
+.menu ul li{
+  text-align: center;
+  display: inline-block;
+}
+
+.menu ul li a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+
+/*retirar link:*/
+.menu ul li a:hover{
+  color: #45859E;
+  text-shadow: 1px 1px 2px #45859E;
+  background-color: #77B3CD;
+}

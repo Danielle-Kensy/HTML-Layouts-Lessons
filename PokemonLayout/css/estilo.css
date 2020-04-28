@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@author "Danie e Renatex";
+
+/*formatando tudo:*/
+*{
+  font-family:century gothic;
+  margin:0;
+  text-align: center;
+
+}
+
+body{
+  background-color: #E1E1EB;
+}
+
+.geral{
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+
+/*parte de cima*/
+.topo1{
+  width: 100%;
+  height: 140px;
+}
+
+.topo2{
+  width:100%;
+  height: 430px;
+  border-radius: 20px 20px 0 0;
+  background-image: url(../img/header3.jpg);
+}
+
+.icone{
+  width: 30%;
+  float: left;
+}
+
+.header{
+  width: 100%;
+  height:500px;
+}
+.articles{
+  margin-top: 10px;
+  border-style: double;
+  border-color: #FF4559;
+  height: 515px;
+}
+.poke1, .poke2, .poke3, .poke4{
+  float: left;
+  width: 24%;
+  padding: 0.5%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0 0 20p 20px;
+  height: 510px;
+}
+p{
+  font-size: 16px;
+	text-indent: 15px;
+	margin-left: 6px;
+	padding:2px;
+	text-align: left;
+}
+.rodape{
+	width: 100%;
+	height: 40px;
+	background-color: #84D4DD;
+	color: #fff;
+	border-radius: 6px;
+	line-height:40px;
+	float:none;
+	clear:both;
+}
+address{
+	color: #49234C;
+}
+.menu{
+  width: 67%;
+  float: left;
+  height: 70px;
+  margin-top:3%;
+}
+.menu ul{
+  list-style-type: none;
+  padding: 0;
+  line-height: 1;
+}
+
+.menu ul li{
+  text-align: center;
+  display: inline-block;
+}
+
+.menu ul li a{
+  display: block;
+  color: #5ECAA6;
+  text-decoration: none;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+
+.menu ul li a:hover{
+  color: #ffffff;
+  background-color: #35A193;
+}
+
+@media screen and (max-width: 480px) {
+  .geral{
+    width: 100%;
+  }
+ .poke1, .poke2, .poke3, .poke4{
+   width: 98.4%;
+   float: none;
+   margin: 0;
+   margin-top: 10px;
+   padding: 0.8%;
+ }
+ .topo1{
+   height: 180px;
+ }
+ .topo2{
+  height: 180px;
+ }
+}
+
+@media screen and (max-width: 960px) {
+  .geral{
+    width: 100%;
+  }
+  .poke1, .poke2{
+    padding: 0.6%;
+    margin:0 1.2%;
+    float: left;
+    width: 46.4%;
+  }
+  .poke3, .poke4{
+    padding: 0.6%;
+    margin:0 1.2%;
+    float: left;
+    width: 46.4%;
+  }
+  .topo1{
+    height: 150px;
+  }
+  .topo2{
+    height: 270px;
+  }
+}
