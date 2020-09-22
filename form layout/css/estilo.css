@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@author "little danie";
+
+body {
+  background-color: rgb(76, 80, 77)
+}
+
+h1 {
+  text-decoration: underline;
+  text-align: center;
+  font-family: Arial black;
+  color: #f2d272;
+  text-shadow: 1px 4px 2px #5F574D;
+  border-radius: 40px, 40px, 0px, 0px;
+}
+
+.maior{
+	width: 30%;
+	margin:0 auto;
+	border-radius:20px;
+	background: #f2d272;
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+  text-shadow: 1px 2px 2px #000;
+}
+
+input, select, textarea{
+	border-radius: 5px;
+	margin: 5px;
+	padding: 5px;
+}
+
+input:focus, select:focus, textarea:focus{
+	background-color: #CCBB50;
+}

@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@author "little danie";
+
+body{
+  background-image: url(../img/bg2.jpg);
+  background-attachment: fixed;
+  font-family: verdana;
+  text-align: center;
+  text-indent: 25px;
+  font-size: 15px;
+
+}
+
+.geral{
+  background-color: #191919;
+  margin: auto;
+  width:900px;
+  border-radius: 59px 59px 30px 30px;
+}
+
+header{
+  width: 100%;
+  height: 250px;
+  background-image: url(../img/header1.jpg);
+  background-size: 100% 100%;
+  border-radius: 59px 59px 0px 0px;
+  /*border: 7px dotted #BEE4F4;*/
+}
+
+aside{
+  background-color: #7EB0C9;
+  width: 800px;
+  height: 1150px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 59px;
+}
+
+.conteudo h1{
+  font-family: Arial black;
+  font-size: 30px;
+  text-align: center;
+  color: #C0DBE4;
+  text-shadow: 1px 4px 2px #5F574D;
+  background-color: #5A8097;
+  border-radius: 25px 25px 0 0;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+  border: 7px dotted #5A8097;
+  border-radius: 25px;
+}
+
+/*menu:*/
+.menu{
+  width: 70%;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+/*Definindo cores e largura:*/
+.menu{
+  width: auto;
+  background-color:#284054;
+}
+
+/*retirar os marcadores:*/
+.menu ul{
+  list-style-type: none;
+  padding: 0;
+  line-height: 1;
+}
+
+.menu ul li{
+  text-align: center;
+  display: inline-block;
+}
+
+.menu ul li a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  text-transform: uppercase;
+}
+
+/*retirar link:*/
+.menu ul li a:hover{
+  color: #142F42;
+  text-shadow: 1px 1px 2px #7EB0C9;
+  background-color: #5A8097;
+}
+
+footer{
+  clear: both;
+  width: 100%;
+  float: none;
+  margin-top: 25px;
+}
+
+.rodape{
+  width: 1000px;
+  height: 30px;
+  background-color: #142F42;
+  color:#fff;
+  border-radius: 0 0 20px 20px;
+  vertical-align: middle;
+  display: table-cell;
+  margin-top: 10px;
+}

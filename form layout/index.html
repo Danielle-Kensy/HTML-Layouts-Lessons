@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Página sobre formulário">
+    <meta name="keywords" content="FORMULÁRIO">
+    <meta name="author" content="little danie">
+    <link rel="shortcut icon" href="img/icon.png">
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+  </head>
+  <body>
+    <main class="geral">
+
+      <h1>PREENCHA COM SEUS DADOS:</h1>
+
+      <form class="formulario" action="index.html" method="post">
+        <fieldset class="maior">
+          <legend>Cadastro Login</legend>
+          <label> Nome: <span class="obriga">*</span> </label>
+				<input type="text" name="nome" size="30" required="required" pattern="[a-z\s]+$">
+				<br>
+        <label> Apelido: <span class="obriga">*</span> </label>
+				<input type="text" name="nome" size="30" required="required" pattern="[a-z\s]+$">
+				<br>
+        <label> Email: <span class="obriga">*</span> </label>
+				<input type="email" name="email" size="30" required="required" pattern=" [a-z0-9._%+-]+@ [a-z0-9.-]+\.[a-z] {2,4}$"/>
+      	<br>
+        <label> Senha: <span class="obriga">*</span> </label>
+				<input type="password" name="senha" value="8" maxlength="10" required="required">
+				<br>
+        <label> Repetir Senha: <span class="obriga">*</span> </label>
+        <input type="password" name="senha" value="8" maxlength="10" required="required">
+        <br>
+        <input type="submit" name="envia" value="Enviar"> &nbsp;
+        <input type="reset" name="limpa" value="Limpar">
+        </fieldset>
+      </form>
+    </main>
+
+  </body>
+</html>
